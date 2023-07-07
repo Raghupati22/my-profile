@@ -10,43 +10,59 @@
             background-color: azure;
             color: orange;
         }
+        #navgation{
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-right: 50px;
+        }
+        .headerContent{
+            margin-right: 50px;
+
+        }
+        #socialinks{
+            margin-right: 30px;
+        }
+        #followme{
+           margin-right: 30px;
+        }
+
     </style>
 </head>
 <body>
     <header>
-    <i class="fa fa-user" aria-hidden="true"></i> <strong>Raghupati Khot</strong> &nbsp;&nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true"></i><strong>9665 3429 20</strong>&nbsp;&nbsp;
-    <i class="fa fa-envelope" aria-hidden="true"></i><strong>khotraghupati22@gmail.com</strong>&nbsp;&nbsp;
+    <i class="fa fa-user" aria-hidden="true"></i> <strong class="headerContent">Raghupati Khot</strong> 
+    <i class="fa fa-phone-square" aria-hidden="true"></i><strong class="headerContent">9665 3429 20</strong>
+    <i class="fa fa-envelope" aria-hidden="true"></i><strong class="headerContent">khotraghupati22@gmail.com</strong>
     <i class="fa fa-download" aria-hidden="true"></i><a href="assets/RaghupatiKhotCV.pdf" download target="_blank"><button>Download Resume</button></a>
   
     </header>
   <br><br> 
    <nav>
-    <a href="home.html" target="myFrame"> HOME </a> &nbsp;&nbsp;
-    <a href="techStack.html" target="myFrame"> TECH STACK</a> &nbsp;&nbsp;     
-    <a href="project.html" target="myFrame"> PROJECT</a> &nbsp;&nbsp;
-    <a href="education.html" target="myFrame"> EDUCATION</a>&nbsp;&nbsp;
-    <a href="aboutMe.html" target="myFrame"> ABOUT ME</a> <br><br>
+    <a id="navgation" href="home.html" target="myFrame"> home </a> 
+    <a id="navgation" href="techStack.html" target="myFrame"> tech stack</a>
+    <a id="navgation"href="project.html" target="myFrame"> project</a> 
+    <a id="navgation" href="education.html" target="myFrame"> education</a>
+    <a id="navgation" href="aboutMe.html" target="myFrame"> about me</a> <br><br>
 </nav>
     <iframe width="900px" height="500px" name="myFrame" src="home.html" frameborder="0">
 
     </iframe>
     <br><br>
     <footer>
-        <span><strong>Follow Me</strong></span> &nbsp;&nbsp;&nbsp;  
+        <span id="followme"><strong>Follow Me</strong></span>   
         <a href="https://github.com/Raghupati22/my-profile.git" target="_blank">
-            <i class="fa fa-github" aria-hidden="true"></i>
-        </a> &nbsp;&nbsp;
+            <i id="socialinks" class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a> 
         <a href="https://www.linkedin.com/in/raghupati-khot-90146562/" target="_blank">
             
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </a>&nbsp;&nbsp;
+            <i id="socialinks" class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+        </a>
         <a href="https://www.instagram.com/" target="_blank">
-            <i class="fa  fa-instagram" aria-hidden="true"></i>
-        </a>&nbsp;&nbsp;
+            <i id="socialinks" class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+        </a>
        
         <a href="https://facebook.com/zoom" target="_blank">
-            <i class="fa  fa-facebook-square" aria-hidden="true"></i>
+            <i id="socialinks" class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
         </a>
 
         <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
