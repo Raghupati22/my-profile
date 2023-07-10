@@ -10,20 +10,30 @@
             background-color: azure;
             color: orange;
         }
-        #navgation{
-            text-transform: uppercase;
-            text-decoration: none;
-            margin-right: 50px;
-        }
+      
         .headerContent{
             margin-right: 50px;
 
         }
         #socialinks{
             margin-right: 30px;
+           
         }
+
         #followme{
            margin-right: 30px;
+        }
+        footer ul li{
+            display: inline-block;
+        }
+        nav ul li{
+            display: inline-block;
+            text-transform: uppercase; 
+            width: 150px; 
+         
+        }
+        a{
+            text-decoration: none;
         }
 
     </style>
@@ -38,32 +48,46 @@
     </header>
   <br><br> 
    <nav>
-    <a id="navgation" href="home.html" target="myFrame"> home </a> 
-    <a id="navgation" href="techStack.html" target="myFrame"> tech stack</a>
-    <a id="navgation"href="project.html" target="myFrame"> project</a> 
-    <a id="navgation" href="education.html" target="myFrame"> education</a>
-    <a id="navgation" href="aboutMe.html" target="myFrame"> about me</a> <br><br>
+    <ul>
+        <li><a  href="home.html" target="myFrame"> home </a> </li>
+        <li><a  href="techStack.html" target="myFrame"> tech stack</a></li>
+        <li><a href="project.html" target="myFrame"> project</a> </li>
+        <li><a  href="education.html" target="myFrame"> education</a></li>
+        <li><a  href="aboutMe.html" target="myFrame"> about me</a> </li>
+    </ul>
+    
+    
+
+    
+    
 </nav>
     <iframe width="900px" height="500px" name="myFrame" src="home.html" frameborder="0">
 
     </iframe>
-    <br><br>
-    <footer>
-        <span id="followme"><strong>Follow Me</strong></span>   
-        <a href="https://github.com/Raghupati22/my-profile.git" target="_blank">
-            <i id="socialinks" class="fa fa-2x fa-github" aria-hidden="true"></i>
-        </a> 
-        <a href="https://www.linkedin.com/in/raghupati-khot-90146562/" target="_blank">
-            
-            <i id="socialinks" class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-            <i id="socialinks" class="fa fa-2x fa-instagram" aria-hidden="true"></i>
-        </a>
        
-        <a href="https://facebook.com/zoom" target="_blank">
-            <i id="socialinks" class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
-        </a>
+    <footer>
+      
+        <ul>
+            <li><span id="followme"><strong>Follow Me</strong></span></li>
+            <li>  <a href="https://github.com/Raghupati22/my-profile.git" target="_blank">
+                <i id="socialinks" class="fa fa-2x fa-github" aria-hidden="true"></i>
+            </a> </li>
+            <li>   <a href="https://www.linkedin.com/in/raghupati-khot-90146562/" target="_blank">
+            
+                <i id="socialinks" class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+            </a></li>
+            <li>  <a href="https://www.instagram.com/" target="_blank">
+                <i id="socialinks" class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+            </a></li>
+            <li><a href="https://facebook.com/zoom" target="_blank">
+                <i id="socialinks" class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
+            </a></li>
+        </ul>
+      
+     
+      
+       
+        
 
         <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
     </footer>

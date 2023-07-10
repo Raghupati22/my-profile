@@ -72,13 +72,20 @@
             border: 2px solid orange;
             padding: 30px;
         }
+        .dummy li
+        {
+list-style-type: circle;
+        }
+        .fruits li{
+            list-style-type: upper-roman; /*lower-alpha upper-alpha */
+        }
     </style>
 </head>
 <body>
     <h2 style="color: brown; text-transform: uppercase; text-decoration: underline; font-style: italic;">My Personal Deatils</h2>
     <p style="color: orange; font-weight: bolder; font-size: larger;">Lorem ipsum dolor sit amet</p>
 <h3 id="summary">Professional summary</h3>
-<ul>
+<ul class="dummy">
 <li>Lorem ipsum dolor sit.</li>
 <li id="summary2">Lorem ipsum dolor sit amet.</li>
 <li id="summary3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
@@ -86,7 +93,7 @@
 </ul>
 <h3> My <span>Permanent</span> address</h3>
 <h3 class="listFruits">List of Fruits</h3>
-<ol>
+<ol class="fruits">
     <li>Apple</li>
     <li class="fruit">Mango</li>
     <li class="fruit">Water Melon</li>
