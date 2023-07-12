@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Discount Calculator</title>
+    
+    <style>
+     h1,h2{
+            font-family: 'Roboto', sans-serif;
+            margin-left: 20px;
+            color: cadetblue;
+        }
+        h1{
+            font-family: 'Roboto', sans-serif;
+            margin-left: 90px;
+            color: cadetblue;
+        }
+        label{
+font-family: 'Poppins', sans-serif;
+color: cadetblue;
+font-size: large;
+        }
+
+#detailButton{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    width: 620px;
+    height: 50px;
+    margin-top: 20px;
+   
+    background-color: rgb(68, 177, 68);
+    color: white;
+    font-size: large;
+    
+}
+#detailButton:hover {
+      background-color:burlywood;
+      transition: 0.7s;
+  }
+
+input[type="text"],input[type="number"]{
+width: 600px;
+border-radius: 10px;
+padding: 7px;
+color: cadetblue;
+font-weight: bolder;
+font-size: large;
+text-transform: uppercase;
+font-family: 'Poppins', sans-serif;
+}
+    </style>
+</head>
+<body>
+    <h1>DISCOUNT CALCULATOR</h1>
+    <h2>Enter the Bill amount and discount in percentage</h2>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>Bill Amount</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Discount Percentage</label></td>
+                </tr>
+                <tr>
+                    <td><input type="number"></td>
+                </tr>
+               
+                <tr>
+                    <td><button type="submit" id="detailButton">Calculate</button></td>
+                </tr>
+                <tr>
+                    <td><label>Total Discount Amount</label></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
