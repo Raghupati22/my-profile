@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative:wght@500&family=Sofia&display=swap" rel="stylesheet">
+    <style>
+        .photo-section{
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .content-section{
+            margin-top: 0px;
+            display: inline-block;
+            
+        }
+        .content-section li:nth-child(even){
+          background-color: rgb(231, 231, 131);
+        }
+      .points li{
+ padding: 10px;
+ list-style-type: none;
+ font-family: 'Signika Negative', sans-serif;
+ font-size: larger;
+
+        }
+        .points li::before{
+            content: "✍️";
+        }
+        .points:hover{
+            background-color: cadetblue;
+        }
+        .para::selection{
+            color:red
+        }
+        #socialinks{
+            margin-right: 30px;
+           
+        }
+        #followme{
+           margin-right: 10px;
+        }
+        footer ul li{
+            display: inline-block;
+            font-family: 'Poppins', sans-serif;
+        }
+        h2{
+            margin-left: 50px;
+            font-size: xx-large;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        .para1{
+            font-size: large;
+            font-family: 'Sofia', cursive;
+        }
+        .para2{
+            font-size: x-large;
+            font-family: 'Signika Negative', sans-serif;
+        }
+        .logotext{
+            display: inline-block;
+        }
+        .logo{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo-section">
+<img src="assets/laptopworking.jpg" width="400px"><br>
+<div class="logo"><i class="fa fa-4x fa-cog" aria-hidden="true"></i></div>
+<div class="logotext"><p class="para1">Powered By</p>
+    <p class="para2">JSoftwareLabs</p></div>
+
+        </div>
+        <div class="content-section">
+            <h2>Compare Text Online</h2>
+            <ul class="points">
+                <li>Compare Text online free</li>
+                <li>Support large file comparison</li>
+                <li>Ignore order and namespaces</li>
+                <li>Side by side diff view</li>
+                <li>Get result in tabular formate for quick refere</li>
+                <li>TEXT diff tool</li>
+                <li>REST API</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+      
+        <ul>
+            <li><span id="followme"><strong>Follow Me</strong></span></li>
+            <li>  <a href="https://github.com/Raghupati22/my-profile.git" target="_blank">
+                <i id="socialinks" class="fa fa-2x fa-github" aria-hidden="true"></i>
+            </a> </li>
+            <li>   <a href="https://www.linkedin.com/in/raghupati-khot-90146562/" target="_blank">
+            
+                <i id="socialinks" class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+            </a></li>
+            <li>  <a href="https://www.instagram.com/" target="_blank">
+                <i id="socialinks" class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+            </a></li>
+            <li><a href="https://facebook.com/zoom" target="_blank">
+                <i id="socialinks" class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
+            </a></li>
+        </ul>
+
+    </footer>
+    <!-- <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, consequuntur.
+    </p> -->
+</body>
+</html>
